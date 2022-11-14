@@ -1,13 +1,13 @@
 public class HelloNumbers{
     public static void main(String[] args){
-        int x = 0;
-        int y = 0;
+        int x = 1;
+        int total = 0;
         while (x < 10){
-            System.out.println(y);
+            System.out.println(total + " ");
+            total = total + 1;
             x = x + 1;
-            y = y + x;
         }
-        System.out.println(5 + 15);
+        //System.out.println(5 + 15);
     }
 }
 /*
